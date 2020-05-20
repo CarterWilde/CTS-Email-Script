@@ -1,4 +1,4 @@
-# prerequisites
+# Prerequisites
 
 Postgres SQL installed
 
@@ -6,7 +6,7 @@ Python 3 installed
 
 Have a table with id, student_email and student_name
 
-## installing
+## Installing
 
 Install python-dotenv
 `pip install -U python-dotenv`
@@ -14,12 +14,12 @@ Install python-dotenv
 Install psycopg2
 `pip install psycopg2`
 
-# starting
+## Starting
 
 `py CTSEmailScript.py`
 
 
-## `.env` Example
+### `.env` Example
 ```
 CONTENT_FILE_PATH="email_content"
 SENDER_EMAIL="carterjwilde@gmail.com"
@@ -34,7 +34,7 @@ SQL_START_OFFSET="0"
 SQL_TABLE="scheme.registration"
 ```
 
-## CONTENT_FILE Example
+### CONTENT_FILE Example
 ```
 Hello {},
 All the best!
