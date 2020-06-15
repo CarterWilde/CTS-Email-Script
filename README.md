@@ -16,8 +16,11 @@ Install psycopg2
 
 ## Starting
 
+for csv
 `py CTSEmailScript.py`
 
+for db
+`py CTSEmailScript.py -db`
 
 ### `.env` Example
 ```
@@ -32,6 +35,9 @@ DB_PASSWORD="<db password>"
 SQL_AMOUNT="10"
 SQL_START_OFFSET="0"
 SQL_TABLE="scheme.registration"
+SMTP_PORT="587"
+SMTP_ADDRESS="smtp.office365.com"
+EMAILS_PATH="emails.csv"
 ```
 
 ### CONTENT_FILE Example
